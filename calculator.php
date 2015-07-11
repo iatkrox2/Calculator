@@ -7,10 +7,11 @@
     <!-- Bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Custom Style -->
-
+<link rel="stylesheet" href="calculator.css">
   </head>
   <body>
 
+<div class="calculator">
     <form method="post" action="calculator.php">
 
       <input type="text" name="value1">
@@ -53,11 +54,12 @@
       }
     }
      ?>
-
+</div>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
