@@ -14,16 +14,32 @@
 <div class="calculator">
     <form method="post" action="calculator.php">
 
-      <input type="text" name="value1">
-      <input type="text" name="value2">
 
-        <select name="action">
+      <div class="form-group">
+        <label for="value1">Enter Value 1</lable>
+          <input type="text" name="value1" id="value1">
+      </div>
+
+      <div class="form-group">
+        <label for="value2"> Enter Value 1</lable>
+          <input type="text" name="value2" id="value2">
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+        <label for="options">Select an Option</label>
+        <select name="action" class="input-lg" id="options">
           <option>+</option>
           <option>-</option>
           <option>*</option>
           <option>/</option>
         </select>
-      <input class="btn btn-primary" type="submit" name="submit" value="Calculate Now">
+      </div>
+
+<hr>
+
+      <input class="btn btn-lg btn-default" type="submit" name="submit" value="Calculate Now">
     </form>
 
 
