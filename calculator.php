@@ -54,23 +54,19 @@
       $action = $_POST['action'];
 
       if ($action == "+") {
-        echo "<b>Your Answer is:</b></br>";
-        echo $value1+$value2;
+        echo "<p class=\"bg-primary answer lead\">Your Answer is : " . $value1+$value2 . "</p>";
       }
 
       if ($action == "-") {
-        echo "<br>Your Answer is:</br></br>";
-        echo $value1-$value2;
+        echo "<p class=\"bg-primary answer lead\">Your Answer is : " . $value1-$value2 . "</p>";
       }
 
       if ($action == "*") {
-        echo "<b>Your Answer is:</b></br>";
-        echo $value1*$value2;
+        echo "<p class=\"bg-primary answer lead\">Your Answer is : " . $value1*$value2 . "</p>";
       }
 
       if ($action == "/") {
-
-        echo "<p class=\"bg-primary answer lead\">Your Answer is : " . $value1/$value2 . "</p>";
+          echo "<p class=\"bg-primary answer lead\">Your Answer is : " . $value1/$value2 . "</p>";
       }
     }
      ?>
