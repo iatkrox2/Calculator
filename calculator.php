@@ -5,7 +5,7 @@
     <title>Simple PHP Calculator</title>
 
     <!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   </head>
   <body>
 
@@ -20,7 +20,7 @@
           <option>*</option>
           <option>/</option>
         </select>
-      <input type="submit" name="submit" value="Calculate Now">
+      <input class="btn btn-primary" type="submit" name="submit" value="Calculate Now">
     </form>
 
 
